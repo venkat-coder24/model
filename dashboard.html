@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RailNetra | Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #000000, #0a1f44, #001f3f);
+            color: #fff;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #b3d9ff;
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 14px;
+            padding: 20px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+        }
+
+        .alert-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .alert-buttons button {
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            background: linear-gradient(90deg, #ff512f, #dd2476);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome To RailNetra!!</h1>
+<h2>Dashboard</h2>
+<p>Real-time AI Train Traffic Monitoring & Control</p>
+
+<div class="cards">
+    <div class="card">
+        <h3>ALERT</h3>
+        <div class="alert-buttons">
+            <button>Delay</button>
+            <button>Safety</button>
+            <button>Bottleneck</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>SIMULATION</h3>
+        <p>Testing</p>
+    </div>
+
+    <div class="card">
+        <h3>HUB</h3>
+        <p>History</p>
+    </div>
+
+    <div class="card">
+        <h3>ANALYTICS</h3>
+        <p>Throughput & efficiency metrics</p>
+    </div>
+</div>
+
+</body>
+</html>
