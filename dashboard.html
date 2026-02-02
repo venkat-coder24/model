@@ -161,6 +161,39 @@ body {
     font-family: "Segoe UI", sans-serif;
 }
 
+.search-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-section input {
+    width: 320px;
+    height: 40px;
+    padding: 0 14px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-section button {
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+}
+
+.search-section button:hover {
+    opacity: 0.9;
+}
+
+
 
     </style>
 </head>
@@ -206,6 +239,12 @@ body {
         <h3>ANALYTICS</h3>
         <p>Throughput & efficiency metrics</p>
     </div>
+</div>
+
+ <!-- SEARCH BAR -->
+<div class="search-section">
+    <input type="text" placeholder="Search trains, alerts, analytics...">
+    <button>Search</button>
 </div>
 
 <!--topbar-->
